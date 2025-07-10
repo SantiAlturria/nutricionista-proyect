@@ -27,7 +27,7 @@ header {
   background: #f8fcfa;
   max-width: 100%;
   text-align: center;
-  padding: 20px 0; 
+  padding: 20px 0;
 }
 
 
@@ -36,11 +36,11 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: #4db280a1;
-  border-radius: 0.5rem; 
+  border-radius: 0.5rem;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px 40px; 
+  padding: 20px 40px;
   position: relative;
   z-index: 100;
 }
@@ -68,6 +68,7 @@ header a {
   font-weight: 500;
   margin: 0 16px;
 }
+
 /* 
 .menu-hamburguesa {
   display: flex;
@@ -100,16 +101,16 @@ header a {
   font-size: 1.2rem;
   font-weight: bold;
   height: 50px;
-  width: 230px;
+  width: 615px;
   position: relative;
   background-color: transparent;
   cursor: pointer;
   border: 2.5px solid #4db280a1;
   overflow: hidden;
   border-radius: 30px;
-  color:  #4db280a1;
+  color: #4db280a1;
   transition: all 0.5s ease-in-out;
-
+  
 }
 
 .boton-agendar .agendar {
@@ -153,18 +154,26 @@ header a {
 .hero-container {
   max-width: 960px;
   display: flex;
-  flex-direction: column;
-  gap: 24px;
+  flex-direction: row;
+  /* ¡Ahora en fila! */
+  align-items: center;
+  /* Para centrar verticalmente la imagen y el texto */
+  justify-content: space-between;
+  /* Para que se separen y ocupen los extremos */
+  gap: 40px;
+  /* Un poco más de espacio entre ellos */
 }
 
 .hero-img {
-  width: 100%;
+  width: 30%;
   aspect-ratio: 16 / 9;
+  background-image: url('../assets/img-doc.PNG');
+  /* AÑADA ESTA LÍNEA */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 12px;
-  min-height: 300px;
+  border-radius: 180px;
+  min-height: 280px;
 }
 
 .hero-text h1 {
@@ -179,6 +188,7 @@ header a {
   font-weight: 400;
   line-height: 1.5;
   margin-top: 8px;
+  padding-bottom: 15px;
 }
 
 /* Servicios */
