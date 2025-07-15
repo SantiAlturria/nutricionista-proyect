@@ -40,30 +40,31 @@ header {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px 40px;
+  padding: 5px 0px;
   position: relative;
   z-index: 100;
+  overflow: visible;
 }
 
 .branding {
-  position: relative;
   display: flex;
   align-items: center;
+  gap: 1rem;
 }
 
 .logo {
-  height: 100px;
+  height: 120px;          /* 👈 más grande que el alto del navbar */
   width: auto;
-  margin-right: 1rem;
-  margin-top: -10px; // ❗Ajusta para que sobresalga hacia arriba
+  object-fit: contain;
+  margin-top: -20px;      /* 👈 sobresale hacia arriba */
+  margin-bottom: -20px;   /* 👈 sobresale hacia abajo */
 }
-
 
 .nav-links {
   margin-left: auto;
   display: flex;
   list-style: none;
-  gap: 20px;
+  gap: 0px;
   padding: 0;
 }
 
@@ -201,12 +202,17 @@ header a {
 }
 
 /* Hero Section */
+main {
+  gap: 50px;
+}
 .hero {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 40px 160px;
 }
+
+
 
 .hero-container {
   max-width: 960px;
@@ -249,19 +255,35 @@ header a {
 
 /* Servicios */
 .servicio {
-  padding: 20px;
+  background-image: url('../assets/img-fondo-servicio.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   background-attachment: fixed;
+  color: white;
+  padding: 90px 40px 90px 40px;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  text-align: center;
 }
 
+
 .servicio h2 {
-  font-size: 1.375rem;
+  text-align: right;
+  font-size: 3rem;
   font-weight: bold;
-  margin-bottom: 8px;
+  margin-bottom: 50px;
 }
 
 .servicio p {
-  font-size: 1rem;
+  font-size: 1.5rem;
   line-height: 1.5;
-  margin-bottom: 16px;
+  text-align: left;
+
 }
 
 /* Cards */
@@ -306,7 +328,7 @@ footer {
 
 footer a {
   color: #4e977d;
-  font-size: 1rem;
+  font-size: 1remes ;
   margin: 0 12px;
   text-decoration: none;
 }
