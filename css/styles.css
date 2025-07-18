@@ -311,13 +311,23 @@ main {
 .img-card {
   width: 100%;
   aspect-ratio: 1 / 1;
-  background-image: url('../assets/img-card1.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 12px;
 }
 
+.card1 {
+  background-image: url('../assets/img-card1.jpg');
+}
+
+.card2 {
+  background-image: url('../assets/img-card2.jpg');
+}
+
+.card3 {
+  background-image: url('../assets/img-card3.jpg');
+}
 
 .card p.title {
   font-size: 1rem;
@@ -328,7 +338,7 @@ main {
   font-size: 0.875rem;
   color: #4e977d;
 }
-
+  
 /* Footer */
 footer {
   text-align: center;
@@ -352,4 +362,58 @@ footer p {
   color: #4e977d;
   font-size: 1rem;
   margin-top: 12px;
+}
+
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+SOBREMI 
+
+.perfil-nutricionista {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: "Montserrat", sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+.foto-nutricionista img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 1rem;
+}
+
+h2, h3 {
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.experiencia ul {
+  list-style: none;
+  padding: 0;
+}
+
+.experiencia li {
+  margin-bottom: 1rem;
+}
+
+section h3 {
+  margin-top: 2rem;
+  font-size: 1.3rem;
 }
