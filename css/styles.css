@@ -225,8 +225,10 @@ main {
   width: 100%;
   max-width: 1200px;
   height: 85vh;
-  padding-top: 100px; /* para que no lo tape el header fijo */
-  margin: 0 auto; /* centra horizontalmente */
+  padding-top: 100px;
+  /* para que no lo tape el header fijo */
+  margin: 0 auto;
+  /* centra horizontalmente */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -338,7 +340,7 @@ main {
   font-size: 0.875rem;
   color: #4e977d;
 }
-  
+
 /* Footer */
 footer {
   text-align: center;
@@ -369,10 +371,8 @@ footer p {
 
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
 
-SOBREMI 
+SOBREMI .perfil-nutricionista {
 
-.perfil-nutricionista {
-  margin-top: 100px;
   max-width: 700px;
   margin: 0 auto;
   padding: 2rem;
@@ -406,53 +406,30 @@ SOBREMI
   text-align: center;
 }
 
-
 .sobre-mi {
-  background-image: url('../assets/img-consul.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  color: #ffffff;
-  text-shadow: #0e1b16;
-  padding: 90px 40px 90px 40px;
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-  text-align: center;
+  margin-top: 10px;
 }
 
 .sobre-mi h2 {
   text-align: left;
-  font-size: 3rem;
-  font-weight: bold;
-  margin-bottom: 50px;
+  font-size: 2.5rem;
+  font-weight: 900;
+  letter-spacing: -0.033em;
+  line-height: 1.2;
 }
 
 .sobre-mi p {
-  font-size: 1.5rem;
-  line-height: 1.5;
-  text-align: right;
-
-}
-.intro {
- font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   margin-top: 8px;
   padding-bottom: 15px;
 }
 
-.experiencia ul {
-  list-style: none;
-  padding: 0;
+.intro {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-top: 8px;
+  padding-bottom: 15px;
 }
-
-.experiencia li {
-  margin-bottom: 1rem;
-}
-
-
