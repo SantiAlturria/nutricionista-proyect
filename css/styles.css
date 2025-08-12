@@ -226,9 +226,7 @@ main {
   max-width: 1200px;
   height: 85vh;
   padding-top: 100px;
-  /* para que no lo tape el header fijo */
   margin: 0 auto;
-  /* centra horizontalmente */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -432,4 +430,52 @@ SOBREMI .perfil-nutricionista {
   line-height: 1.5;
   margin-top: 8px;
   padding-bottom: 15px;
+}
+
+/*///////////////////////////////////////////////////////////////////////*/
+
+.consulta {
+  background: url("../assets/img-consulta.jpg") no-repeat bottom center / cover;
+  padding: 70px 20px;
+  border-radius: 16px;
+  
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.consulta-content {
+  max-width: 800px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px;
+  border-radius: 12px;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: black;
+  text-align: left;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+
+.btn-cta {
+  background-color: #00c47d;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease;
+  align-items: center;
+
+.btn-cta :hover {
+    background-color: #009f66;
+  }
 }
