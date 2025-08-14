@@ -59,13 +59,10 @@ header {
 
 .logo {
   height: 120px;
-  /* 👈 más grande que el alto del navbar */
   width: auto;
   object-fit: contain;
   margin-top: -20px;
-  /* 👈 sobresale hacia arriba */
   margin-bottom: -20px;
-  /* 👈 sobresale hacia abajo */
 }
 
 .nav-links {
@@ -133,12 +130,7 @@ header a {
   border-radius: 30px;
   color: #4db280a1;
   transition: all 0.5s ease-in-out;
-
-}
-
-.boton-agendar .agendar {
   z-index: 1;
-  font-weight: 800;
 }
 
 .tipo1::after {
@@ -152,7 +144,7 @@ header a {
   visibility: hidden;
   height: 10px;
   width: 10px;
-  z-index: -1;
+  z-index: -1; /* detrás del texto */
 }
 
 .boton-agendar:hover {
@@ -165,6 +157,7 @@ header a {
   visibility: visible;
   transform: scale(100) translateX(2px);
 }
+
 
 .boton-nav {
   font-size: 1rem;
@@ -199,7 +192,6 @@ header a {
 }
 
 .boton-nav:hover {
-  /* box-shadow: 1px 1px 100px #ffffff; */
   color: #4db280a1;
   border: none;
 }
@@ -369,7 +361,9 @@ footer p {
 
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
 
-SOBREMI .perfil-nutricionista {
+SOBREMI 
+
+.perfil-nutricionista {
 
   max-width: 700px;
   margin: 0 auto;
@@ -438,18 +432,14 @@ SOBREMI .perfil-nutricionista {
   background: url("../assets/img-consulta.jpg") no-repeat bottom center / cover;
   padding: 70px 20px;
   border-radius: 16px;
-  
   color: white;
   position: relative;
   overflow: hidden;
 }
 
-.consulta-content {
-  max-width: 800px;
-  margin: 0 auto;
-  background: rgba(0, 0, 0, 0.4);
-  padding: 10px;
-  border-radius: 12px;
+.consulta-contenido {
+  max-width: 900px;
+ 
 }
 
 h1 {
@@ -463,19 +453,4 @@ h1 {
 p {
   font-size: 1rem;
   margin-bottom: 30px;
-}
-
-.btn-cta {
-  background-color: #00c47d;
-  color: white;
-  padding: 12px 24px;
-  border-radius: 30px;
-  text-decoration: none;
-  font-weight: 600;
-  transition: 0.3s ease;
-  align-items: center;
-
-.btn-cta :hover {
-    background-color: #009f66;
-  }
 }
