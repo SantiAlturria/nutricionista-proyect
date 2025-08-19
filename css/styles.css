@@ -123,7 +123,7 @@ header a {
   height: 50px;
   width: 615px;
   position: relative;
-  background-color: transparent;
+  background-color: white;
   cursor: pointer;
   border: 2.5px solid #4db280a1;
   overflow: hidden;
@@ -144,7 +144,8 @@ header a {
   visibility: hidden;
   height: 10px;
   width: 10px;
-  z-index: -1; /* detrás del texto */
+  z-index: -1;
+  /* detrás del texto */
 }
 
 .boton-agendar:hover {
@@ -361,9 +362,7 @@ footer p {
 
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
 
-SOBREMI 
-
-.perfil-nutricionista {
+SOBREMI .perfil-nutricionista {
 
   max-width: 700px;
   margin: 0 auto;
@@ -426,7 +425,7 @@ SOBREMI
   padding-bottom: 15px;
 }
 
-/*///////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 .consulta {
   background: url("../assets/img-consulta.jpg") no-repeat bottom center / cover;
@@ -439,7 +438,7 @@ SOBREMI
 
 .consulta-contenido {
   max-width: 900px;
- 
+
 }
 
 h1 {
@@ -453,4 +452,48 @@ h1 {
 p {
   font-size: 1rem;
   margin-bottom: 30px;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+.servicios-titulo {
+  color: #4e977d;
+  font-size: 2.5rem;
+  font-weight: 900;
+  letter-spacing: -0.033em;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.servicios-encabezado p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-top: 8px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.contenedor-cards-servicio {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(158px, 1fr));
+  gap: 12px;
+  padding: 16px;
+}
+
+.card-servicio {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: #fff;
+  border-radius: 15px;
+  padding: 25px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); 
+}
+
+.card-servicio:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); 
 }
