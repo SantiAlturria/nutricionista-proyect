@@ -11,40 +11,36 @@
 
 <body>
     <header>
-        <nav class="navbar">
+        <nav class="navbar" aria-label="Navegación principal">
             <div class="branding">
                 <img src="./assets/img-logo.png" alt="Logo de Milagros Comugnaro" class="logo" />
                 <h1>Lic. Milagros Comugnaro</h1>
             </div>
-            <!-- <div class="menu-hamburguesa">
-                <a href="./index.html" class="logo-container">
-                    <img src="" alt="" class="logo" /></a>
-                <input type="checkbox" id="menu-toggle" class="menu-toggle" />
-                <label for="menu-toggle" class="hamburger">☰</label> -->
-            <ul class="nav-links">
-                <li><a class="boton-nav tipo2">Sobre mí</a></li>
-                <li><a class="boton-nav tipo2">Servicios</a></li>
-                <li><a class="boton-nav tipo2">Contacto</a></li>
-                <li><a class="boton-nav tipo2">Blog</a></li>
+            <!-- <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Abrir menú" />
+            <label for="menu-toggle" class="hamburger" aria-controls="nav-links" aria-expanded="false">☰</label> -->
+            <ul id="nav-links" class="nav-links">
+                <li><a href="#sobre-mi" class="boton-nav tipo2">Sobre mí</a></li>
+                <li><a href="#servicios" class="boton-nav tipo2">Servicios</a></li>
+                <li><a href="#contacto" class="boton-nav tipo2">Contacto</a></li>
+                <li><a href="#blog" class="boton-nav tipo2">Blog</a></li>
             </ul>
-            </div>
         </nav>
     </header>
-
-    <main class="hero">
-
-        <div class="hero-container">
-            <div class="hero-img" href="./assets/img-doc.PNG"></div>
-            <div class="hero-text">
-                <h1>Una nutrición que transforma desde adentro</h1>
-                <h2>
-                    Soy Mili, Licenciada en nutricion, dedicada a ayudarte a alcanzar tus objetivos de salud mediante
-                    planes de nutrición personalizados. Mi enfoque se basa en la ciencia y se adapta a tus necesidades
-                    únicas, garantizando cambios de estilo de vida sostenibles y placenteros
-                </h2>
-                <button class="boton-agendar tipo1">Agendar consulta</button>
+    <main>
+        <section class="hero">
+            <div class="hero-container">
+                <img src="./assets/img-doc.PNG" alt="Lic. Milagros Comugnaro" class="hero-img" />
+                <div class="hero-text">
+                    <h1>Una nutrición que transforma desde adentro</h1>
+                    <p>Soy Mili, Licenciada en Nutrición, dedicada a ayudarte a alcanzar tus objetivos de salud mediante
+                        planes de nutrición personalizados. Mi enfoque se basa en la ciencia y se adapta a tus necesidades
+                        únicas, garantizando cambios de estilo de vida sostenibles y placenteros.
+                    </p>
+                    <button class="boton-agendar tipo1">Agendar consulta</button>
+                </div>
             </div>
-        </div>
+        </section>
+        
         <section class="servicio">
             <h2>Mi Enfoque Nutricional</h2>
             <p>
@@ -53,7 +49,8 @@
                 ayudarte a alcanzar un bienestar duradero.
             </p>
         </section>
-        <section class="card-grid">
+  
+  <section class="card-grid">
             <div class="card">
                 <div class="img-card card1"></div>
                 <p class="title">Planes Personalizados</p>
@@ -152,21 +149,103 @@
         </article>
 
         <article class="card-servicio">
-            <h3>Nutrición Clínica</h3>
+            <h3>Nutrición Clinica</h3>
             <p>
-                Tratamiento nutricional para diabetes, hipertensión, colesterol alto y otras
-                condiciones médicas.
+                Tratamiento nutricional para diabetes, hipertensión, colesterol alto y otras condiciones médicas.
             </p>
             <ul class="card-lista">
-                <li>Diagnóstico nutricional</li>
+                <li>Diágnostico nutricional</li>
                 <li>Tratamiento especializado</li>
                 <li>Monitoreo continuo</li>
             </ul>
         </article>
+
+        <article class="card-servicio">
+            <h3>Nutrición Familiar</h3>
+            <p>
+                Planes alimentarios para toda la familia, incluyendo niños y adolescentes.
+            </p>
+            <ul class="card-lista">
+                <li>Toda la familia</li>
+                <li>Habitos saludables</li>
+                <li>Educacion nutricional</li>
+            </ul>
+        </article>
+
+        <article class="card-servicio">
+            <h3>Educación Nutrional</h3>
+            <p>
+                Planes alimentarios para toda la familia, incluyendo niños y adolescentes.
+            </p>
+            <ul class="card-lista">
+                <li>Talleres educativos</li>
+                <li>Material didáctico</li>
+                <li>Coaching nutricional</li>
+            </ul>
+        </article>
+
+        <article class="card-servicio">
+            <h3>Consultas Online</h3>
+            <p>
+                Atención nutricional desde la comodidad de tu hogar con la misma calidad profesional.
+            </p>
+            <ul class="card-lista">
+                <li>Consultas virtuales</li>
+                <li>Horarios flexibles</li>
+                <li>Seguimiento personalizado</li>
+            </ul>
+        </article>
     </div>
 </section>
+<a href="https://calendly.com/alturriasantiagoezequiel/30min" target="_blank">
+  <button class="boton-agendar tipo1">Agendar consulta</button>
+</a>
 
-    </main>
+<section class="contacto">
+  <h2>Contactame!</h2>
+  <p>
+    Contactame para cualquier consulta o para programar una consulta. 
+    Estoy acá para ayudarte a alcanzar tus objetivos de salud y bienestar.
+  </p>
+
+  <form class="contacto-form">
+    <input type="text" placeholder="Nombre Completo" required>
+    <input type="email" placeholder="Email" required>
+    <input type="tel" placeholder="Celular" required>
+    <textarea placeholder="Mensaje..." rows="5" required></textarea>
+    <button type="submit">Enviar</button>
+  </form>
+
+  <div class="contacto-info">
+    <h3>Contact Information</h3>
+    <div class="info-item">
+      <span>📞</span>
+      <div>
+        <strong>Celular</strong>
+        <p>3534123456</p>
+      </div>
+    </div>
+    <div class="info-item">
+      <span>✉️</span>
+      <div>
+        <strong>Email</strong>
+        <p>milicomugnaronutricion@gmail.com</p>
+      </div>
+    </div>
+    <div class="info-item">
+      <span>📍</span>
+      <div>
+        <strong>Dirección de Consultorio</strong>
+        <p>123 Wellness Avenue, Suite 200, Healthville, CA 90210</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+</main>
 
     <footer>
         <p>@2025 Lic. Milagros Comugnaro. Todos los derechos reservados.</p>
