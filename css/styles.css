@@ -208,6 +208,9 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.main-contenedor {
   padding: 40px 160px;
 }
 
@@ -519,11 +522,12 @@ p {
 /*///////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 .contacto {
-  max-width: 600px;
+  max-width: none;
   margin: 0;
   padding: 40px 20px;
   font-family: sans-serif;
   text-align: left;
+  background-color: #8cd2af;
 }
 
 .contacto h2 {
