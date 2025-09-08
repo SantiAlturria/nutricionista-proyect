@@ -341,7 +341,7 @@ footer {
 
 footer a {
   color: #4e977d;
-  font-size: 1remes;
+  font-size: 1rem;
   margin: 0 12px;
   text-decoration: none;
 }
@@ -360,16 +360,14 @@ footer p {
 
 
 
-/* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
-
-SOBREMI 
+/* //////////////////////////////////////////////SOBREMI /////////////////////////////////////////////////////// */
 
 .perfil-nutricionista {
-  max-width: 700px;
+  max-width: 1030px;
   margin: 0 auto;
   padding: 2rem;
   font-family: "Montserrat", sans-serif;
-  color: #333;
+  color: black;
   line-height: 1.6;
 }
 
@@ -396,6 +394,7 @@ SOBREMI
   font-weight: 900;
   line-height: 1.2;
   text-align: center;
+  font-family: "Montserrat", sans-serif;
 }
 
 .sobre-mi {
@@ -408,6 +407,7 @@ SOBREMI
   font-weight: 900;
   letter-spacing: -0.033em;
   line-height: 1.2;
+  font-family: "Montserrat", sans-serif;
 }
 
 .sobre-mi p {
@@ -416,6 +416,7 @@ SOBREMI
   line-height: 1.5;
   margin-top: 8px;
   padding-bottom: 15px;
+  text-align: center;
 }
 
 .intro {
@@ -455,7 +456,7 @@ p {
   margin-bottom: 30px;
 }
 
-/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////SERVICIOS////////////////////////////////////////////////////////////////*/
 
 
 .servicios-titulo {
@@ -465,6 +466,7 @@ p {
   letter-spacing: -0.033em;
   line-height: 1.2;
   text-align: center;
+  margin-top: 100px;
 }
 
 .servicios-encabezado p {
@@ -499,35 +501,28 @@ p {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); 
 }
 
-/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-
-.calendly-container {
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-}
-
-.calendly-inline-widget {
-  width: 100% !important;
-  height: 100% !important;
-}
-
-/* Fuerza al iframe interno a no exceder el contenedor */
-.calendly-inline-widget iframe {
-  width: 100% !important;
-  height: 100% !important;
-  border: 0;
-}
-
-/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////CONTACTO/////////////////////////////////////////////////////////////////////*/
 
 .contacto {
-  max-width: none;
-  margin: 0;
-  padding: 40px 20px;
-  font-family: sans-serif;
-  text-align: left;
-  background-color: #8cd2af;
+  background: url("../assets/img-calendario.jpg") no-repeat bottom center / cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: black;
+  padding: 90px 40px 90px 40px;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  text-align: center;
+}
+
+.contacto-contenedor {
+  padding: 40px 160px;
+  margin: 0 auto;
 }
 
 .contacto h2 {
@@ -546,54 +541,129 @@ p {
   padding-bottom: 15px;
 }
 
-.contacto-form {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
+/*////////////////////////////////////////////FOOTER///////////////////////////////////////////////////////////////////*/
+
+.footer {
+  background-color: #4e977d;
+  color: #ddd;
+  padding: 50px 20px 20px;
+  font-size: 0.95rem;
+  margin-top: 100px;
 }
 
-.contacto-form input,
-.contacto-form textarea {
-  width: 100%;
-  padding: 14px;
-  border: 0.5px solid;
-  border-radius: 10px;
-  background: #f3f8f6;
-  font-size: 1rem;
-  outline: none;
+.footer-contenedor {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.contacto-form button {
-  padding: 14px;
-  background: #00c27f;
-  color: white;
-  font-weight: bold;
-  border: none;
-  border-radius: 25px;
-  cursor: pointer;
-  transition: background 0.3s ease;
-}
-
-.contacto-form button:hover {
-  background: #00a86b;
-}
-
-.contacto-info {
-  margin-top: 40px;
-}
-
-.contacto-info h3 {
-  font-size: 1.3rem;
-  margin-bottom: 20px;
-}
-
-.info-item {
+.footer-branding {
   display: flex;
   align-items: center;
-  gap: 12px;
-  margin-bottom: 15px;
+  gap: 10px;
 }
 
-.info-item span {
-  font-size: 1.5rem;
+.footer-logo {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
 }
+.footer h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.footer h3 span {
+  color: #ddd;
+}
+
+.footer-col h3 {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.footer p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+  color: #fff;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer ul li a {
+  color: #ddd;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer ul li a:hover {
+  color:#4db280a1;
+}
+
+/* Redes sociales */
+.footer-social a {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #ddd;
+  transition: transform 0.3s;
+}
+
+.footer-social a:hover {
+  transform: scale(1.2);
+}
+
+/* Línea inferior */
+.footer-bottom {
+  border-top: 1px solid #ddd;
+  margin-top: 30px;
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.footer-bottom p {
+  margin: 0;
+  color: #ddd;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-links a {
+  color: #aaa;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #4db280a1;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-bottom {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
