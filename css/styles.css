@@ -1,5 +1,5 @@
 /* Tipografías de Google */
-@import url('https://fonts.googleapis.com/css2?display=swap&family=Epilogue:wght@400;500;700;900&family=Noto+Sans:wght@400;500;700;900');
+@import url("https://fonts.googleapis.com/css2?display=swap&family=Epilogue:wght@400;500;700;900&family=Noto+Sans:wght@400;500;700;900");
 
 /* Reset general */
 * {
@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: 'Epilogue', 'Noto Sans', sans-serif;
+  font-family: "Epilogue", "Noto Sans", sans-serif;
   background-color: #f8fcfa;
   color: #0e1b16;
   min-height: 100vh;
@@ -159,7 +159,6 @@ header a {
   transform: scale(100) translateX(2px);
 }
 
-
 .boton-nav {
   font-size: 1rem;
   font-weight: bold;
@@ -227,11 +226,10 @@ main {
   gap: 40px;
 }
 
-
 .hero-img {
   width: 30%;
   aspect-ratio: 16 / 9;
-  background-image: url('../assets/img-doc.PNG');
+  background-image: url("../assets/img-doc.PNG");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -256,7 +254,7 @@ main {
 
 /* Servicios */
 .servicio {
-  background-image: url('../assets/img-fondo-servicio.jpg');
+  background-image: url("../assets/img-fondo-servicio.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -272,7 +270,6 @@ main {
   text-align: center;
 }
 
-
 .servicio h2 {
   text-align: right;
   font-size: 3rem;
@@ -284,7 +281,6 @@ main {
   font-size: 1.5rem;
   line-height: 1.5;
   text-align: left;
-
 }
 
 /* Cards */
@@ -311,15 +307,15 @@ main {
 }
 
 .card1 {
-  background-image: url('../assets/img-card1.jpg');
+  background-image: url("../assets/img-card1.jpg");
 }
 
 .card2 {
-  background-image: url('../assets/img-card2.jpg');
+  background-image: url("../assets/img-card2.jpg");
 }
 
 .card3 {
-  background-image: url('../assets/img-card3.jpg');
+  background-image: url("../assets/img-card3.jpg");
 }
 
 .card p.title {
@@ -356,9 +352,6 @@ footer p {
   font-size: 1rem;
   margin-top: 12px;
 }
-
-
-
 
 /* //////////////////////////////////////////////SOBREMI /////////////////////////////////////////////////////// */
 
@@ -440,7 +433,6 @@ footer p {
 
 .consulta-contenido {
   max-width: 900px;
-
 }
 
 h1 {
@@ -457,7 +449,6 @@ p {
 }
 
 /*///////////////////////////////////////////////SERVICIOS////////////////////////////////////////////////////////////////*/
-
 
 .servicios-titulo {
   color: #4e977d;
@@ -493,18 +484,19 @@ p {
   border-radius: 15px;
   padding: 25px;
   transition: all 0.3s ease-in-out;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 .card-servicio:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); 
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 /*//////////////////////////////////////////CONTACTO/////////////////////////////////////////////////////////////////////*/
 
 .contacto {
-  background: url("../assets/img-calendario.jpg") no-repeat bottom center / cover;
+  background: url("../assets/img-calendario.jpg") no-repeat bottom center /
+    cover;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -609,7 +601,7 @@ p {
 }
 
 .footer ul li a:hover {
-  color:#4db280a1;
+  color: #4db280a1;
 }
 
 /* Redes sociales */
@@ -666,4 +658,3 @@ p {
     gap: 10px;
   }
 }
-
