@@ -328,8 +328,6 @@ main {
   color: #4e977d;
 }
 
-
-
 /* //////////////////////////////////////////////SOBREMI /////////////////////////////////////////////////////// */
 
 #sobre-mi {
@@ -384,13 +382,14 @@ main {
   font-family: "Montserrat", sans-serif;
 }
 
-.sobre-mi p {
+.texto-sobre-mi {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   margin-top: 8px;
   padding-bottom: 15px;
   text-align: center;
+  font-family: epilogue, sans-serif;
 }
 
 .intro {
@@ -430,7 +429,9 @@ p {
 }
 
 /*///////////////////////////////////////////////SERVICIOS////////////////////////////////////////////////////////////////*/
-
+#servicios {
+  scroll-margin-top: 120px;
+}
 .servicios-titulo {
   color: #4e977d;
   font-size: 2.5rem;
@@ -474,7 +475,9 @@ p {
 }
 
 /*//////////////////////////////////////////CONTACTO/////////////////////////////////////////////////////////////////////*/
-
+#contacto {
+  scroll-margin-top: 120px;
+}
 .contacto {
   background: url("../assets/img-calendario.jpg") no-repeat bottom center /
     cover;
