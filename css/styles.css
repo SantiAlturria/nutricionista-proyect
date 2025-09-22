@@ -201,7 +201,7 @@ header a {
   transform: scale(100) translateX(2px);
 }
 
-/* Hero Section */
+/*//////////////////////////// Hero Section //////////////////////////////////0                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 */
 main {
   gap: 50px;
   display: flex;
@@ -237,14 +237,14 @@ main {
   min-height: 280px;
 }
 
-.hero-text h1 {
+.hero-text h2 {
   font-size: 2.5rem;
   font-weight: 900;
   letter-spacing: -0.033em;
   line-height: 1.2;
 }
 
-.hero-text h2 {
+.hero-text p {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -328,32 +328,13 @@ main {
   color: #4e977d;
 }
 
-/* Footer */
-footer {
-  text-align: center;
-  padding: 40px 20px;
-  background-color: transparent;
-}
 
-footer a {
-  color: #4e977d;
-  font-size: 1rem;
-  margin: 0 12px;
-  text-decoration: none;
-}
-
-footer svg {
-  fill: #4e977d;
-  margin: 0 8px;
-}
-
-footer p {
-  color: #4e977d;
-  font-size: 1rem;
-  margin-top: 12px;
-}
 
 /* //////////////////////////////////////////////SOBREMI /////////////////////////////////////////////////////// */
+
+#sobre-mi {
+  scroll-margin-top: 120px;
+}
 
 .perfil-nutricionista {
   max-width: 1030px;
@@ -373,7 +354,7 @@ footer p {
   margin: 0 auto 1rem;
 }
 
-.perfil-nutricionista h1 {
+.perfil-nutricionista h2 {
   color: #4e977d;
   font-size: 2.5rem;
   font-weight: 900;
@@ -382,7 +363,7 @@ footer p {
   text-align: center;
 }
 
-.perfil-nutricionista h2 {
+.perfil-nutricionista h3 {
   font-size: 1.5rem;
   font-weight: 900;
   line-height: 1.2;
@@ -435,7 +416,7 @@ footer p {
   max-width: 900px;
 }
 
-h1 {
+.consulta-contenido h2 {
   font-size: 4rem;
   font-weight: bold;
   margin-bottom: 10px;
