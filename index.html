@@ -28,7 +28,7 @@
     <nav class="navbar" aria-label="Navegación principal">
       <div class="branding">
         <img src="./assets/img-logo.png" alt="Logo de Milagros Comugnaro, Licenciada en Nutrición" class="logo" />
-        <h1>Lic. Milagros Comugnaro</h1>
+        <p>Lic. Milagros Comugnaro</p>
       </div>
       <!-- <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Abrir menú" />
     <label for="menu-toggle" class="hamburger" aria-controls="nav-links" aria-expanded="false">☰</label> -->
@@ -44,9 +44,9 @@
     <div class="main-contenedor">
       <section class="hero">
         <div class="hero-container">
-          <img src="./assets/img-doc.png" alt="Lic. Milagros Comugnaro" class="hero-img" />
+          <img loading="lazy" src="./assets/img-doc.png" alt="Lic. Milagros Comugnaro" class="hero-img" />
           <div class="hero-text">
-            <h2>Una nutrición que transforma desde adentro</h2>
+            <h1>Una nutrición que transforma desde adentro</h1>
             <p>
               Soy Mili, Licenciada en Nutrición, dedicada a ayudarte a
               alcanzar tus objetivos de salud mediante planes de nutrición
@@ -54,7 +54,7 @@
               tus necesidades únicas, garantizando cambios de estilo de vida
               sostenibles y placenteros.
             </p>
-            <button class="boton-agendar tipo1">Agendar consulta</button>
+            <a href="#contacto" class="boton-agendar tipo1">Agendar consulta</a>
           </div>
         </div>
       </section>
@@ -69,40 +69,41 @@
       </section>
 
       <section class="card-grid">
-        <div class="card">
+        <article class="card">
           <div class="img-card card1"></div>
-          <p class="title">Planes Personalizados</p>
+          <h3>Planes Personalizados</h3>
           <p class="subtext">
             Adaptados a tus objetivos, gustos y estilo de vida.
           </p>
-        </div>
+        </article>
 
-        <div class="card">
+        <article class="card">
           <div class="img-card card2"></div>
-          <p class="title">Coaching Nutricional</p>
+          <h3>Coaching Nutricional</h3>
           <p class="subtext">
             Acompañamiento constante para lograr tus metas.
           </p>
-        </div>
+        </article>
 
-        <div class="card">
+        <article class="card">
           <div class="img-card card3"></div>
-          <p class="title">Talleres de Bienestar</p>
+          <h3>Talleres de Bienestar</h3>
           <p class="subtext">
             Espacios interactivos sobre alimentación, cocina y hábitos.
           </p>
-        </div>
+        </article>
       </section>
 
       <section id="sobre-mi" class="perfil-nutricionista">
         <div class="foto-nutricionista">
-          <img src="./assets/img-lic.jpg" alt="Lic. Milagros Comugnaro" />
+          <img loading="lazy" src="./assets/img-lic.jpg" alt="Lic. Milagros Comugnaro" />
         </div>
-        <h2>Licenciada en Nutrición Milagros Comugnaro</h2>
-        <h3>MP: 2015</h3>
 
-        <section class="sobre-mi">
-          <h2>Sobre Mí</h2>
+        <h2>Licenciada en Nutrición Milagros Comugnaro</h2>
+        <p class="matricula">MP: 2015</p>
+
+        <div class="sobre-mi">
+          <h3>Sobre Mí</h3>
           <p class="texto-sobre-mi">
             Estudié en la Universidad de Mendoza, Sede Río Cuarto. Como
             profesional creo que una buena alimentación es alcanzada
@@ -114,20 +115,19 @@
             para que tomes decisiones informadas y sostengas hábitos
             saludables incluso después de nuestras sesiones.
           </p>
-        </section>
-        <section class="experiencia"></section>
+        </div>
       </section>
 
-      <div class="consulta">
-        <section class="consulta-contenido">
+      <section class="consulta">
+        <div class="consulta-contenido">
           <h2>Tu viaje hacia el bienestar comienza aquí</h2>
           <p>
             Descubre los servicios disponibles para alcanzar tus objetivos de
             salud. Nutramos tu cuerpo y mente para una vida plena.
           </p>
-          <button class="boton-agendar tipo1">Contáctame</button>
-        </section>
-      </div>
+          <a href="#contacto" class="boton-agendar tipo1">Contáctame</a>
+        </div>
+      </section>
 
       <section id="servicios" class="servicios">
         <div class="servicios-encabezado">
@@ -222,24 +222,26 @@
     </div>
     <section id="contacto" class="contacto">
       <div class="contacto-contenedor">
-        <h2>¡Contáctame!</h2>
+        <h2>Empezá tu cambio hoy</h2>
         <p>
-          Contáctame para cualquier consulta o para programar una consulta.
-          Estoy acá para ayudarte a alcanzar tus objetivos de salud y
-          bienestar.
-        </p>
-        <a href="https://calendly.com/alturriasantiagoezequiel/30min" target="_blank">
-          <button class="boton-agendar tipo1">Agendar consulta</button>
+          Contactame para cualquier consulta o para reservar tu turno.
+          Al hacer clic en el botón vas a ser redirigido a mi agenda online en Calendly:
+          solo tenés que elegir el día y horario que más te convenga, completar tus datos
+          y confirmar la reserva. Todo el proceso te lleva menos de un minuto.</p>
+        <a href="https://calendly.com/alturriasantiagoezequiel/30min" target="_blank" rel="noopener noreferrer"
+          class="boton-agendar tipo1" aria-label="Agendar una consulta de 30 minutos con Santiago Alturria">
+          Reservar consulta
         </a>
       </div>
     </section>
+
   </main>
 
   <footer class="footer">
     <div class="footer-contenedor">
       <div>
         <div class="footer-branding">
-          <img src="./assets/img-logo.png" alt="Logo de Milagros Comugnaro" class="footer-logo" />
+          <img loading="lazy" src="./assets/img-logo.png" alt="Logo de Milagros Comugnaro" class="footer-logo" />
           <h3 class="footer-titulo">Lic. Milagros Comugnaro</h3>
         </div>
         <p>Una nutrición que transforma desde adentro</p>
