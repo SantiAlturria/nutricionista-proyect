@@ -53,11 +53,17 @@ header {
 }
 
 .logo {
-  height: 120px;
-  width: auto;
+  height: 80px; 
+  margin: 0; 
   object-fit: contain;
-  margin-top: -20px;
-  margin-bottom: -20px;
+}
+
+.branding p {
+  margin: 0; 
+  color: #ffffff;
+  font-size: 1.75rem;
+  font-weight: bold;
+  letter-spacing: -0.015em;
 }
 
 .nav-links {
@@ -66,14 +72,7 @@ header {
   list-style: none;
   gap: 0px;
   padding: 0;
-}
-
-.branding p {
-  color: #ffffff;
-  font-size: 1.75rem;
-  font-weight: bold;
-  letter-spacing: -0.015em;
-  margin-left: 1rem;
+  align-items: center;
 }
 
 header a {
@@ -337,7 +336,6 @@ main {
   max-width: 1030px;
   margin: 0 auto;
   padding: 2rem;
-  font-family: "Montserrat", sans-serif;
   color: black;
   line-height: 1.6;
 }
@@ -362,11 +360,10 @@ main {
 }
 
 .matricula {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 900;
   line-height: 1.2;
   text-align: center;
-  font-family: "Montserrat", sans-serif;
 }
 
 .sobre-mi {
@@ -541,16 +538,16 @@ p {
   height: 150px;
   border-radius: 50%;
   object-fit: cover;
-  background: #fff2;
   padding: 10px;
   text-align: left;
 }
 
 .footer h3 {
-  font-size: 1rem;
+ text-align: center;
+  font-size: 1.8rem;
   font-weight: 700;
-  margin-bottom: 15px;
-  text-align: center;
+  letter-spacing: -0.033em;
+  line-height: 1.2;
 }
 
 .footer-social {
@@ -560,7 +557,7 @@ p {
 }
 
 .footer-social a {
-  font-size: 2.3rem;
+  font-size: 2rem;
   color: #fff;
   transition: transform 0.3s ease, color 0.3s ease;
   margin-top: 20px;
@@ -578,7 +575,8 @@ p {
   display: flex;
   justify-content: center;
   gap: 50px;
-  margin-top: 50px;
+  margin-top: 30px;
+  font-weight: 700;
 }
 
 .footer-links ul li {
@@ -593,6 +591,8 @@ p {
 
 .footer-links ul li a:hover {
   color: #222;
+  font-size: 1rem;
+  font-weight: 700;
 }
 
 .footer-bottom {
